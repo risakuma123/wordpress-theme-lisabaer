@@ -1,0 +1,627 @@
+/*navigation bar*/
+
+/*.row {
+    margin: 20px 30px 30px 30px;
+}*/
+
+.navigation {
+    margin: 20px 30px 30px 30px
+}
+
+.navElementsContainer {
+    margin-top: 30px;
+}
+
+.logoImage img {
+     width: 140px;
+}
+
+.navElement {
+    display: inline-block;  
+}
+
+.navElement a {
+    font-family: quicksand;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 8px;
+    text-align: right; 
+}
+
+/*header with hero image and title*/
+
+.jumbotron {
+  background-image:url("images/home_main_baer.svg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+
+.jumbotron h2 {
+    margin-left: 0px;
+}
+
+.container {
+    margin-left: 100px;
+}
+
+.headerText {
+    width: 550px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+
+/*colors*/
+
+
+.red {
+    color: #FF015C;
+}
+
+.yellow {
+    color: #FDDF03;   
+}
+
+.green {
+    color: #00D49C;
+}
+
+.blue {
+    color: #69C9EC;
+}
+
+
+/*general markups for text*/
+
+
+h1 {
+    font-family: quicksand;
+    font-weight: 100;
+    font-size: 10em;
+}
+
+h2 {
+    font-family: quicksand;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 1.6em;
+}
+
+h4 {
+    font-family: quicksand;
+    font-weight: 300;
+    font-size: 1.2em;  
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 1.2em;
+}
+
+
+
+/*home exploration section*/
+
+
+.homeExplore h4 {
+    text-align: center;
+}
+
+
+/*triangles*/
+
+
+.triangleDownBlack {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin: 5px auto 0px auto;
+}
+
+.triangleRightWhite {
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-left: 20px solid white;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 17px;
+}
+
+
+/*loop*/
+
+
+.loop a:hover {
+    text-decoration: none;
+}
+
+.loop a {
+    color: black;
+}
+
+.loop p {
+    font-family: Open Sans;
+    font-size: 1em; 
+}
+
+.loopFrame {
+    width: 900px;
+    height: 300px;
+    border: 2px black solid;
+    margin: 100px auto 0px auto;
+}
+
+.loopImage {
+    width: 400px;
+    height: 260px;
+    margin: 18px 10px 10px 20px;
+    float: left;
+}
+
+.loopImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.loopContentButton p {
+    font-family: quicksand;
+    font-weight: 300;
+    font-weight: 1.3em;
+}
+
+.loopContentCategory p {
+    font-family: quicksand;
+    font-weight: 300;
+     font-size: 1em;
+}
+
+.loopContentTags p {
+    font-family: quicksand;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.loopContent {
+    width: 430px;
+    float: right;
+    margin: 25px 20px 10px 0px; 
+}
+
+.loopContentText {
+    height: 120px;
+}
+
+.loopContentButton {
+    height: 45px;
+    width: 180px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: quicksand;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.loopContentCategory {
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border: black solid 1px;
+    font-family: quicksand;
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.loopContentTags {
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border: black solid 1px;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+}
+
+
+/*home explore section*/
+
+
+.homeExploreButton {
+    margin: 100px auto 50px auto;
+    padding: 5px;
+    height: 80px;
+    width: 450px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.buttonText {
+    display:inline-block;
+    float: left;
+    margin: 20px auto 0px 60px;
+}
+
+.buttonText p {
+    font-family: quicksand;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+
+/*footer*/
+
+.footer {
+    border-top: black solid 2px;
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 250px;
+    width: 100%;
+}
+
+.footerText p {
+    line-height: 300%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer p {
+    font-family: quicksand;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.footerContactButton a {
+    text-decoration:none;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #00D49C;
+    font-family: quicksand;
+    font-size: 1.3em;
+    font-weight: 100;
+    color: white;
+    line-height: 350%;
+}
+
+
+.footerSubscribeButton a {
+    text-decoration:none;
+    padding: 20px 45px;
+    text-align: center;
+    background-color: #FF015C;
+    font-family: quicksand;
+    font-size: 1.3em;
+    font-weight: 100;
+    color: white;
+    line-height: 400%;
+}
+
+.footerSubscribeButton {
+    margin-top: 20px;
+}
+
+.footerContactButton:after {
+    content: "The BÄER loves receveiving post!";
+    display: block;
+    background-color: none;
+    color: black;
+    font-size: 0.9em;
+    margin-top: 5px;
+    font-family: quicksand;
+    font-weight: 100;   
+}
+
+
+.footerSubscribeButton:after {
+    content: "The BÄER loves also sending post!";
+    display: block;
+    background-color: none;
+    color: black;
+    font-size: 0.9em;
+    margin-top: 5px;
+    font-family: quicksand;
+    font-weight: 100;   
+}
+
+.funnyNote p  {
+    font-family: quicksand;
+    font-size: 1em;
+    width: 300px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.privacyAndStuff {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.privacyAndStuff a {
+    text-decoration: none;
+    color: white;
+    font-family: quicksand;
+    font-size: 1em;
+}
+
+
+.privacyAndStuff p {
+    color: white;
+    font-family: quicksand;
+    font-size: 1em;
+}
+
+.privacyAndStuff a:after {
+    content: "";
+    display: block;
+    margin: 1px auto 10px auto;
+    height: 5px;
+    border-bottom: 1px solid white;
+    width: 50px;
+}
+
+
+.privacyAndStuff p:after {
+    content: "";
+    display: block;
+    margin: 1px auto 0px auto;
+    height: 5px;
+    border-bottom: 1px solid white;
+    width: 50px;
+}
+
+/*blog post single page*/
+
+
+.blogPostContent p, h4 {
+    width: 600px;
+    margin: 20px auto 0px auto;
+}
+
+.blogPostContent p {
+    width: 600px;
+    margin: 20px auto 0px auto;
+}
+
+.blogPostContent h2, h3 {
+    width: 600px;
+    margin: 50px auto 10px auto;
+}
+
+.blogPostContent img {
+    width: 1100px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blogPostContent ol {
+    width: 600px;
+    margin: 50px auto 10px auto; 
+    font-family: open sans;
+    font-size: 1.2em;
+}
+
+
+.blogPostContent ul {
+    width: 600px;
+    margin: 50px auto 10px auto;  
+    font-family: open sans;
+    font-size: 1.2em;
+    list-style: sqare;
+    list-style-position: outside;
+}
+
+.blogPostContent li {
+    margin-bottom: 20px;
+}
+
+.blogPostContent a {
+    color: #69C9EC;
+}
+
+.blogPostContent a:hover {
+    color: #553ae5;
+    text-decoration: none;
+}
+
+.blogPostContent a:visited {
+    color: #553ae5;
+    text-decoration: none;
+}
+
+/*quote*/
+
+
+blockquote {
+    font-family: quicksand;
+    font-size: 1.3em;
+    width: 550px;
+    width: 600px;
+    margin: 50px auto 50px auto;
+    position: relative;
+    border:none;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 5em;
+    position: absolute;
+    left: -30px;
+    top:-30px;
+}
+
+blockquote:after {
+    display: block;
+    font-family: quicksand;
+    content: "\201D";
+    font-size: 5em;
+    position: absolute;
+    right: -30px;
+    top:40px;
+}
+
+.socialShareButtons img {
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-flex;
+}
+
+.socialShareButtons {
+    text-align: center;
+}
+
+.socialShareButtons:before {
+    content:"";
+    display: block;
+    border-bottom: black solid 2px;
+    width: 200px;
+    margin: 150px auto 30px auto;
+}
+
+.socialShareButtons:after {
+    content:"";
+    display: block;
+    border-bottom: black solid 2px;
+    width: 200px;
+    margin: 30px auto 50px auto;
+}
+
+
+.emailSubscriptionFormField {
+    width: 520px;
+    height: 50px;
+    border: #ff015c solid 2px;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.emailSubscriptionFormButton {
+    width: 250px;
+    height: 50px;
+    background-color: #ff015c;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    margin-top: 20px;
+}
+
+.emailSubscriptionFormButton p {
+    font-family: quicksand;
+    font-weight: 300;
+}
+
+/*blog home*/
+
+.blogSearchField {
+    margin: 100px 20px 100px auto;
+    width: 600px;
+    height: 60px;
+    border: black solid 2px;
+}
+
+.blogSearchButton {
+    margin: 100px auto 100px 0px;
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.blogSearchButton p {
+    font-family: quicksand;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.rightSideBar {
+    margin: 100px 100px 100px auto; 
+    border-left: black solid 2px;
+    padding-left: 50px;
+}
+
+.rightSideBar ul {
+    font-family: quicksand;
+    line-height: 250%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.rightSideBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightSideBar a:hover {
+    color: #553ae5;
+}
+
+.rightSideBar h2 {
+    margin-bottom: 20px;
+}
+
+.blogHome .loopFrame {
+    margin: 100px auto 50px auto;   
+}
+
+
+/*email subscription form*/
+
+.emailSubscriptionForm {
+    width: 900px;
+    height: 300px;
+    border: solid 2px #ff015c;
+    padding: 30px 50px;
+    margin: 50px auto 0px auto;
+}
+
+
